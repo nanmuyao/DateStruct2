@@ -11,4 +11,9 @@
 
 #include <stdio.h>
 
+class list
+{
+    
+};
+
 #endif /* list_hpp */
