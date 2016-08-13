@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		2269E3751D5CBDF400377015 /* DateStruct */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DateStruct; sourceTree = BUILT_PRODUCTS_DIR; };
 		2269E3781D5CBDF400377015 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		2269E37F1D5CC0D300377015 /* list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = list.cpp; sourceTree = "<group>"; };
-		2269E3801D5CC0D300377015 /* list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = list.hpp; sourceTree = "<group>"; };
+		2269E37F1D5CC0D300377015 /* list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = list.cpp; path = DateStruct/list.cpp; sourceTree = "<group>"; };
+		2269E3801D5CC0D300377015 /* list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = list.hpp; path = DateStruct/list.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +44,7 @@
 		2269E36C1D5CBDF400377015 = {
 			isa = PBXGroup;
 			children = (
+				22B46F871D5F17620016F88A /* 链表 */,
 				2269E3771D5CBDF400377015 /* DateStruct */,
 				2269E3761D5CBDF400377015 /* Products */,
 			);
@@ -61,10 +62,17 @@
 			isa = PBXGroup;
 			children = (
 				2269E3781D5CBDF400377015 /* main.cpp */,
+			);
+			path = DateStruct;
+			sourceTree = "<group>";
+		};
+		22B46F871D5F17620016F88A /* 链表 */ = {
+			isa = PBXGroup;
+			children = (
 				2269E37F1D5CC0D300377015 /* list.cpp */,
 				2269E3801D5CC0D300377015 /* list.hpp */,
 			);
-			path = DateStruct;
+			name = "链表";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
