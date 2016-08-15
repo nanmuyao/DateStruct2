@@ -10,6 +10,7 @@
 		2269E3791D5CBDF400377015 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269E3781D5CBDF400377015 /* main.cpp */; };
 		2269E3811D5CC0D300377015 /* list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2269E37F1D5CC0D300377015 /* list.cpp */; };
 		227A7C731D5F546C009DB28B /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 227A7C711D5F546C009DB28B /* Vector.cpp */; };
+		22ED58CB1D61FA2C000DE4E2 /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22ED58C91D61FA2C000DE4E2 /* List.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		2269E3801D5CC0D300377015 /* list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = list.hpp; path = DateStruct/list.hpp; sourceTree = "<group>"; };
 		227A7C711D5F546C009DB28B /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vector.cpp; sourceTree = "<group>"; };
 		227A7C721D5F546C009DB28B /* Vector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
+		22ED58C91D61FA2C000DE4E2 /* List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
+		22ED58CA1D61FA2C000DE4E2 /* List.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,7 @@
 		2269E36C1D5CBDF400377015 = {
 			isa = PBXGroup;
 			children = (
+				22ED58C81D61FA11000DE4E2 /* List */,
 				227A7C701D5F544F009DB28B /* vector */,
 				22B46F871D5F17620016F88A /* 链表 */,
 				2269E3771D5CBDF400377015 /* DateStruct */,
@@ -86,6 +90,15 @@
 				2269E3801D5CC0D300377015 /* list.hpp */,
 			);
 			name = "链表";
+			sourceTree = "<group>";
+		};
+		22ED58C81D61FA11000DE4E2 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				22ED58C91D61FA2C000DE4E2 /* List.cpp */,
+				22ED58CA1D61FA2C000DE4E2 /* List.hpp */,
+			);
+			name = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2269E3791D5CBDF400377015 /* main.cpp in Sources */,
+				22ED58CB1D61FA2C000DE4E2 /* List.cpp in Sources */,
 				2269E3811D5CC0D300377015 /* list.cpp in Sources */,
 				227A7C731D5F546C009DB28B /* Vector.cpp in Sources */,
 			);
